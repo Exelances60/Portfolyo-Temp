@@ -1,0 +1,124 @@
+.about-container {
+  width: 90%;
+  height: 80%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  .about-image-container {
+    min-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    height: 85%;
+
+    box-shadow: 0px 6px 11px -6px rgba(0, 0, 0, 0.75);
+    border: 1px solid #dfdfdf;
+    .about-img {
+      width: 80%;
+      min-width: 70%;
+
+      height: 70%;
+      img {
+        width: 100%;
+        box-shadow: 0px 6px 11px -6px rgba(0, 0, 0, 0.75);
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .about-logos {
+      width: 80%;
+      margin-top: 5%;
+      height: 20%;
+      display: flex;
+      .lg-logos {
+        width: 30%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 50px;
+        .fa-html5 {
+          color: orangered;
+        }
+        .fa-react {
+          color: #5ccfee;
+        }
+        .fa-css3 {
+          color: #2760e5;
+        }
+      }
+    }
+  }
+  .about-decps {
+    width: 50%;
+    min-width: 45%;
+    height: 50%;
+    border: 1px solid #dfdfdf;
+    margin-right: 5%;
+    .tex {
+      width: 100%;
+      height: 13%;
+      display: flex;
+      align-items: center;
+
+      border: 1px solid #dfdfdf;
+      background-color: #f7f7f7;
+      .red {
+        width: 1.2%;
+        max-width: 2%;
+        border-radius: 50px;
+        height: 40%;
+        max-height: 30%;
+        margin-left: 2%;
+        background-color: #ed4c5c;
+      }
+      .yellow {
+        width: 1.2%;
+        max-width: 2%;
+        border-radius: 50px;
+        height: 40%;
+        max-height: 30%;
+        margin-left: 2%;
+        background-color: #fdcb58;
+      }
+      .green {
+        width: 1.2%;
+        max-width: 2%;
+        border-radius: 50px;
+        height: 40%;
+        max-height: 30%;
+        margin-left: 2%;
+        background-color: #78b159;
+      }
+    }
+    .about-text {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+      width: 100%;
+      h3 {
+        margin-top: 2%;
+        margin-left: 2%;
+      }
+      p {
+        margin-left: 2%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 888px) {
+  .about-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    .about-image-container {
+      margin-bottom: 5%;
+      width: 50%;
+    }
+    .about-decps {
+      width: 80%;
+      margin-bottom: 5%;
+    }
+  }
+}

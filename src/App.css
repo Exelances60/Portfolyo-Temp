@@ -1,0 +1,17 @@
+.overlay-open {
+  width: 100%;
+  height: 225%;
+  display: block;
+  position: absolute;
+  z-index: 100;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.overlay {
+  display: none;
+}
+@media screen and (max-width: 888px) {
+  .overlay-open {
+    height: 306.5%;
+  }
+}

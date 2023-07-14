@@ -1,0 +1,23 @@
+.project {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efe1bd;
+  flex-direction: column;
+  h2 {
+    font-weight: normal;
+  }
+}
+.darkproject {
+  background-color: #5b5b5b;
+}
+@media screen and (max-width: 888px) {
+  .project {
+    height: auto;
+  }
+  h2 {
+    margin-top: 2%;
+  }
+}

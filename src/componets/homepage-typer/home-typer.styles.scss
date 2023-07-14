@@ -1,0 +1,16 @@
+.typer {
+  font-size: 25px;
+  color: #353239;
+  margin-bottom: 2%;
+  transition: 300ms ease-in;
+  font-weight: lighter;
+}
+.darktyper {
+  transition: 300ms ease-in;
+  color: #ffffff;
+}
+@media screen and (max-width: 510px) {
+  .typer {
+    font-size: 18px;
+  }
+}
