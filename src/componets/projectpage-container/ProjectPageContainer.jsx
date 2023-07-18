@@ -17,11 +17,18 @@ const ProjectPageContainer = ({ openWindowHandler, light }) => {
             }`}
           >
             <div className="project-container-img">
-              <img src={Image1} alt={1}></img>
+              <a
+                href="https://eclectic-pothos-136ae4.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <img src={Image1} alt={1}></img>
+              </a>
             </div>
             <div className="project-container-date">2023</div>
             <div className="project-container-name">
-              <span>Weather App</span>
+              <span>Fasihon Shop App</span>
             </div>
           </div>
           <div className="project-container-in">
@@ -33,11 +40,20 @@ const ProjectPageContainer = ({ openWindowHandler, light }) => {
               <span>Bankist</span>
             </div>
           </div>
+
           <div className="project-container-in">
             <div className="project-container-img">
-              <img src={Image3} alt={3}></img>
+              <a
+                href="https://polite-gumption-3cfee2.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none", color: "black" }}
+              >
+                <img src={Image3} alt={3}></img>
+              </a>
             </div>
             <div className="project-container-date">2023</div>
+
             <div className="project-container-name">
               <span>Clothing E-Shop</span>
             </div>
